@@ -1,0 +1,61 @@
+A51173008  Wiggins, Nicholas 
+Sec: 6    Score: __50__ / 55 
+
+
+General Requirements
+
+__06__
+6 pts	Coding Standard
+		(descriptive comments, mnemonic identifiers, format, etc...)
+
+
+
+Implementation:
+
+__05__	(5 pts) 
+init_game
+
+__07__	(7 pts) display_game
+                
+	2 pts for correct values displayed
+                
+	5 pts for column-oriented format
+
+
+__04__	(5 pts) valid_move
+
+__06__
+(6 pts) tableau_move
+               
+ -1 pt for not flipping over face-down card
+
+__06__	
+(6 pts) foundation_move
+
+__00__	(4 pts) win
+
+__04__	
+(4 pts) main driver routine
+
+__12__  
+(12 pts) Error checks (2 pt each)
+           
+	error in choice (wrong letter, not handling lower case, ...)
+           
+	error in number of arguments
+           
+	error in type of arguments
+           
+	error for movement between tableau columns
+           
+	error for moving something other than king to empty tableau column
+           
+	error for moving wrong card to foundataion
+
+
+
+TA Comments:
+
+-1: valid_move() should also check if the cards are is_face_up()
+
+-4: win() is not right, you can't compare a card with "", also foundation[0][-1] will break the code if the foundation[0] is empty
