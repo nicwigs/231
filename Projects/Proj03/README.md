@@ -1,4 +1,3 @@
-####################################################
 Computer Project 03 - Children Addition Game
  Prompt for difficulty and number of problems
  if valid inputs
@@ -10,4 +9,3 @@ Computer Project 03 - Children Addition Game
         check if right answer
      print final score
 say invalid input if needed
-#################################################
